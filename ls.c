@@ -4,12 +4,9 @@
 
 int main(int argc, char *argv[])
 {
-
     // Run dir + supplied arg(S)
     if (argc == 2)
     {
-        // printf("The argument supplied is %s\n", argv[1]);
-
         // First part of the command is always the same
         char exp[] = "dir ";
         // Create a new char array that has the size of the command, and length of the supplied argument
