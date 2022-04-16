@@ -28,16 +28,7 @@ int main(int argc, char *argv[])
     // If no arguments are supplied, open the current directory in file explorer
     else
     {
-        // First part of the command is always the same
-        char cmnd[] = "dir ";
-        // Create a new char array that has the size of the command, and supplied directory
-        char target[sizeof cmnd];
-        // Copies contents of foo to target buffer
-        strcpy(target, cmnd);
-        // Appends contents of bar to target buffer
-        strcat(target, "");
-        // Run the command
-        system(target);
+        system("dir");
     }
     return 0;
 }
